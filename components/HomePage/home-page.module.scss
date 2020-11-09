@@ -1,0 +1,10 @@
+.pattern {
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .pattern {
+        margin-top: -50px;
+    }
+}

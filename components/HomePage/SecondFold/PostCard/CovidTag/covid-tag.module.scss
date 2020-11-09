@@ -1,0 +1,19 @@
+.containerPositive,
+.container {
+  color: white;
+  width: 233px;
+  height: 25px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 14px;
+  margin-left: -8px;
+  display: flex;
+  align-items: center;
+}
+
+.containerPositive {
+  background: #3d9c47;
+}
+.container {
+  background: var(--primary);
+}

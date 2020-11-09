@@ -1,0 +1,21 @@
+.container {
+    margin-bottom: 500px;
+    width: 100%;
+    background: var(--secondaryBackground);
+    border-top: 1px solid var(--tertiary);
+    border-bottom: 1px solid var(--tertiary);
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding-left: 20px;
+    padding: {
+        top: 20px;
+        bottom: 20px;
+    }
+    //overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+  

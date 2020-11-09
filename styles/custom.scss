@@ -1,0 +1,57 @@
+$theme-colors: (
+	'primary': #3B60FF,
+	'secondary': #F8F8F8,
+	'secondaryBackground': #FFFFFF,
+	'tertiary': #D6D4D4,
+	'cta': #3B60FF,
+	'success': #00965e,
+	'info': #253746,
+	'warning': #418fde,
+	'light': #ffffff,
+	'dark': #24292e,
+	'darkSecondary': #04aa51,
+	'light-gray': #dde5ed,
+	'mild-gray': #f2f2f2,
+	'light-primary': #ff7d60,
+	'fb': #3b5998,
+	'google': #db4437,
+	'github': #24292e,
+);
+
+$body-bg: #F8F8F8;
+$body-height: '100%';
+$body-width: '100%';
+$body-margin: 0;
+$btn-border-radius: 10px;
+$btn-border-radius-lg: 10px;
+$btn-border-radius-sm: 10px;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+	Helvetica, 'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji',
+	'Segoe UI Symbol';
+// $font-family-monospace: 'Roboto Mono', monospace; SFMono-Regular
+$font-family-monospace: 'SFMono-Regular', monospace;
+$font-size-base: 1rem;
+
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~bootstrap/scss/root";
+
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/utilities/borders";
+
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/card";
+// moved the import to _document.js page
+
+// bootstrap css
+@import "~bootstrap/scss/bootstrap";
