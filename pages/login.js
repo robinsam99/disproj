@@ -1,11 +1,11 @@
 import "../styles/custom.scss";
-import HomePage from "../components/HomePage";
+import LoginPage from "../components/LoginPage";
 import Layout from "../components/Common/Layout";
 
 const Home = () => {
   return (
     <Layout>
-      <HomePage />
+      <LoginPage />
     </Layout>
   );
 };
