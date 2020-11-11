@@ -20,7 +20,7 @@ const Header = () => {
         <Image src="/HomePage/Logo.svg" className={styles.logo} />
       </a>
       <div className={styles.rightSection}>
-        <a href="/" className={styles.profile}>
+        <a href="/feed" className={styles.profile}>
           {name}
         </a>
       </div>

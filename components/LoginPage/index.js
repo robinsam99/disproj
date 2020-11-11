@@ -13,7 +13,7 @@ const LoginPage = () => {
   useEffect(() => {
     const fetchedName = window.localStorage.getItem("name");
     const fetchedEmail = window.localStorage.getItem("email");
-    if (fetchedName !== "" || fetchedEmail !== "") {
+    if (fetchedName && fetchedEmail) {
       setName(fetchedName);
       setEmail(fetchedEmail);
     }

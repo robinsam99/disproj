@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import styles from "./hero-section.module.scss";
 import PrimaryCTA from "../../Common/PrimaryCTA";
 
-const HeroSection = () => {
+const HeroSection = ({ isLoggedIn }) => {
   return (
     <div className={styles.container}>
       <div className={styles.textSection}>
@@ -15,9 +15,11 @@ const HeroSection = () => {
           variant="cta"
           size="lg"
           className={styles.cta}
-          onClick={() => Router.push("/login")}
+          onClick={() =>
+            isLoggedIn ? Router.push("/feed") : Router.push("/login")
+          }
         >
-          Join Now
+          {isLoggedIn ? <>Browse Feed</> : <>Join Now</>}
         </PrimaryCTA>
       </div>
       <div className={styles.imageSection}>

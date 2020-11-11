@@ -16,11 +16,12 @@
 .rightSection a {
   color: var(--cta);
   font-weight: bold;
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .rightSection a:hover {
-  color: var(--tertiary);
+  border-bottom: 1px solid var(--cta);  
+  //color: white;
   text-decoration: none;
 }
 
