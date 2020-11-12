@@ -1,0 +1,26 @@
+.affected, .positive, .doctor, .affectedSmall, .positiveSmall, .doctorSmall {
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.affected, .positive, .doctor {
+  width: 160px;
+  height: 25px;
+  font-size: 14px;
+}
+
+.affectedSmall, .positiveSmall, .doctorSmall {
+  width: 100px;
+  font-size: 10px;
+}
+
+.positive, .positiveSmall {
+    background: #3d9c47;
+}
+
+.affected, .affectedSmall {
+    background: var(--cta);
+}

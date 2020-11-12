@@ -43,9 +43,8 @@ const LoginPage = () => {
             value={name}
             onChange={(event) => {
               event.preventDefault();
-              if (event.target.value !== "") {
-                setName(event.target.value);
-              }
+
+              setName(event.target.value);
             }}
           />
           <Form.Control
@@ -55,9 +54,8 @@ const LoginPage = () => {
             value={email}
             onChange={(event) => {
               event.preventDefault();
-              if (event.target.value !== "") {
-                setEmail(event.target.value);
-              }
+
+              setEmail(event.target.value);
             }}
           />
         </Form>

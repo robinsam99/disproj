@@ -6,6 +6,11 @@ const Header = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
+  const Logout = () => {
+    localStorage.removeItem("name");
+    localStorage.removeItem("email");
+  };
+
   useEffect(() => {
     const fetchedName = window.localStorage.getItem("name");
     const fetchedEmail = window.localStorage.getItem("email");
@@ -23,6 +28,27 @@ const Header = () => {
         <a href="/feed" className={styles.profile}>
           {name}
         </a>
+        {name !== "" && email !== "" ? (
+          <>
+            <a
+              href="/"
+              className={styles.logout}
+              style={{ marginLeft: 15 }}
+              onClick={() => Logout()}
+            >
+              Logout
+            </a>
+            <a
+              href="/ask"
+              className={styles.doctor}
+              style={{ marginLeft: 15 }}
+            >
+              Ask a Doctor
+            </a>
+          </>
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );

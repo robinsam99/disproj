@@ -1,0 +1,37 @@
+.container {
+    height: 270px;
+    width: 326px;
+    border-radius: 20px;
+    border: 1px solid var(--tertiary);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 16px;
+    white-space: normal;
+    background-color: white;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.details {
+    font-size: 14px;
+}
+
+.link {
+    border-top: 1px solid var(--tertiary);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: none !important;
+}

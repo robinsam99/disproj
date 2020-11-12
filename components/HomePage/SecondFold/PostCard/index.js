@@ -10,7 +10,16 @@ const PostCard = ({ post }) => {
       <div className={styles.headSection}>
         <Image src={post.profile} height="60" />
         <div className={styles.postDetails}>
-          <span className={styles.header}>{post.name}</span>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+            }}
+          >
+            <span className={styles.header}>{post.name}</span>
+            <Image src="/LoginPage/star.svg" height="20" style={{marginRight: 20}}/>
+          </div>
           <CovidTag covid={post.covid} />
         </div>
       </div>

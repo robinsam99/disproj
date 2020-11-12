@@ -1,0 +1,23 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    height: 100%;
+    top: 0;
+}
+
+.rightSection {
+    margin-left: 40px;
+    overflow-x: hidden;
+}
+.cta {
+    margin-top: 10px;
+    width: 320px;
+}
