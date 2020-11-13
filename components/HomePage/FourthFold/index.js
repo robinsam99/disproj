@@ -7,21 +7,21 @@ const profiles = [
   {
     name: "Dhruv Srikanth",
     position: "Co-founder and CEO",
-    profile: "/HomePage/profile.svg",
+    profile: "/HomePage/dhruv.svg",
     description:
       "When he's not building ML models you can find him gaming in a corner.",
   },
   {
     name: "Pranav Jagdish",
     position: "Co-founder and Product",
-    profile: "/HomePage/profile.svg",
+    profile: "/HomePage/pranav.svg",
     description:
       "Aspring business man, great writer and a pain in everyone's bottom.",
   },
   {
     name: "Shobith Nandakumar",
     position: "Co-founder and CTO",
-    profile: "/HomePage/profile.svg",
+    profile: "/HomePage/shobith.svg",
     description: "Loves cloud technology, javascript and animals.",
   },
 ];
@@ -54,7 +54,7 @@ const FourthFold = () => {
       <div className={styles.profile}>
         {profiles.map((prof, index) => {
           return (
-            <div className={styles.box}>
+            <div className={styles.box} key={index}>
               <Image src={prof.profile} height={60} />
               <span
                 style={{
