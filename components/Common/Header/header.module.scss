@@ -5,6 +5,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid var(--tertiary);
+  top: 0;
+  position: sticky;
+  background-color: #F8F8F8;
+  z-index: 1;
 }
 
 .rightSection {
