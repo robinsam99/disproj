@@ -28,6 +28,21 @@ const profiles = [
 const FourthFold = () => {
   return (
     <div className={styles.container}>
+      <span className={styles.header}>Story Board</span>
+      <span className={styles.subHeader}>
+        Say something about what our design process is and some more stuff.
+      </span>
+      <div className={styles.storySection}>
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <Image src="/HomePage/plot1.svg" className={styles.imageStory} />
+          <Image src="/HomePage/plot2.svg" className={styles.imageStory} />
+        </div>
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <Image src="/HomePage/plot3.svg" className={styles.imageStory} />
+          <Image src="/HomePage/plot4.svg" className={styles.imageStory} />
+        </div>
+      </div>
+
       <span className={styles.header}>Design Process</span>
       <span className={styles.subHeader}>
         Say something about what our design process is and some more stuff.
