@@ -5,9 +5,7 @@ import Tags from "../../Common/Tags";
 
 import styles from "./profile-card.module.scss";
 
-const ProfileCard = ({ name }) => {
-  const [type, setType] = useState(true);
-
+const ProfileCard = ({ name, userRole, setUserRoleStatus }) => {
   return (
     <div className={styles.container}>
       <div style={{ display: "flex", flexDirection: "column", padding: 20 }}>
@@ -20,9 +18,9 @@ const ProfileCard = ({ name }) => {
             justifyContent: "center",
             cursor: 'pointer'
           }}
-          onClick={() => setType(!type)}
+          onClick={() => setUserRoleStatus(false)}
         >
-          <Tags type={type ? 'affected' : 'positive'} />
+          <Tags type={userRole} />
         </div>
         <span className={styles.details}>Related To Covid Patient</span>
         <span className={styles.details}>Duration</span>

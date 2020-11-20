@@ -10,7 +10,8 @@ const HeroSection = ({ isLoggedIn }) => {
   return (
     <div className={styles.container}>
       <div className={styles.textSection}>
-        <span>Some Random Empathetic Text is placed here and here.</span>
+        <span>Foster growth,<br /> 
+          Build a community & Engender a support system!</span>
         <PrimaryCTA
           variant="cta"
           size="lg"

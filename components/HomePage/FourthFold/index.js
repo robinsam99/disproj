@@ -30,22 +30,33 @@ const FourthFold = () => {
     <div className={styles.container}>
       <span className={styles.header}>Story Board</span>
       <span className={styles.subHeader}>
-        Say something about what our design process is and some more stuff.
+        Visual Representation of our customer lifecycle.
       </span>
+      <Image
+        src="/HomePage/pattern.svg"
+        height={100}
+        style={{ marginLeft: -900, marginTop: -100 }}
+        className={styles.pattern}
+      />
       <div className={styles.storySection}>
-        <div style={{ display: "flex", flexDirection: "row" }}>
+        <div style={{ display: "flex", flexDirection: "row" }} className={styles.story}>
           <Image src="/HomePage/plot1.svg" className={styles.imageStory} />
           <Image src="/HomePage/plot2.svg" className={styles.imageStory} />
         </div>
-        <div style={{ display: "flex", flexDirection: "row" }}>
+        <div style={{ display: "flex", flexDirection: "row" }} className={styles.story}>
           <Image src="/HomePage/plot3.svg" className={styles.imageStory} />
           <Image src="/HomePage/plot4.svg" className={styles.imageStory} />
         </div>
       </div>
-
+      <Image
+        src="/HomePage/pattern.svg"
+        height={100}
+        style={{ marginRight: -900, marginBottom: -80, marginTop: 30 }}
+        className={styles.pattern}
+      />
       <span className={styles.header}>Design Process</span>
       <span className={styles.subHeader}>
-        Say something about what our design process is and some more stuff.
+        An in-depth profile on the users of Covimeet.
       </span>
       <Image
         src="/HomePage/covid-positive-empathy.svg"

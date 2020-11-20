@@ -27,6 +27,7 @@
 
 .storySection {
     border-radius: 20px;
+    border: 1px solid var(--tertiary);
     background-color: white;
     margin-top: 40px;
     margin-bottom: 60px;
@@ -79,6 +80,9 @@
 }
 
 @media (max-width: 768px) {
+    .pattern {
+        display: none !important;
+    }
     .profile {
         flex-direction: column;
     }
@@ -87,6 +91,18 @@
     }
     .box {
         margin-top: 20px;
+    }
+    .storySection {
+        flex-direction: column;
+        margin: 20px;
+        padding: 10px;
+    }
+    .story {
+        flex-direction: column !important;
+    }
+    .imageStory {
+        height: 300px !important;
+        padding-bottom: 20px;
     }
 }
 

@@ -4,6 +4,41 @@
     flex-direction: row;
 }
 
+.containerRole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+.options {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    // margin-left: 500px;
+    // margin-right: 500px;
+}
+.options a {
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 20px;
+    border: 1px solid var(--tertiary);
+    padding: 20px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s ease-in-out;
+}
+.options a:hover {
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.image {
+    margin-bottom: 15px;
+}
 .leftSection {
     display: flex;
     flex-direction: column;
