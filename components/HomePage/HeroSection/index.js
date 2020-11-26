@@ -10,8 +10,8 @@ const HeroSection = ({ isLoggedIn }) => {
   return (
     <div className={styles.container}>
       <div className={styles.textSection}>
-        <span>Foster growth,<br /> 
-          Build a community & Engender a support system!</span>
+        <span>Let Us Help You,<br /> 
+          Diagnose  your disease & you don't have to venture out!</span>
         <PrimaryCTA
           variant="cta"
           size="lg"
@@ -20,7 +20,7 @@ const HeroSection = ({ isLoggedIn }) => {
             isLoggedIn ? Router.push("/feed") : Router.push("/login")
           }
         >
-          {isLoggedIn ? <>Browse Feed</> : <>Join Now</>}
+          {isLoggedIn ? <>Browse Feed</> : <>Diagnose</>}
         </PrimaryCTA>
       </div>
       <div className={styles.imageSection}>

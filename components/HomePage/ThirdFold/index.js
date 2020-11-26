@@ -15,7 +15,7 @@ const ThirdFold = () => {
       <div className={styles.textSection}>
         <span style={{ fontWeight: "bold", fontSize: 44 }} className={styles.title}>Our Mission.</span>
         <span style={{ fontSize: 22 }} className={styles.subHeader}>
-          We want to connect Covid affected people from around the globe. We work to empower Covid affected people to share their stories, document their experience, and persevere as a community!
+          We want patients to be able to do basic diagnosis from home during a pandemic where venturing out and meeting a doctor is restricted.We are trying build a community of patients by sharing their experiences!
         </span>
       </div>
     </div>

@@ -48,7 +48,7 @@ const FourthFold = () => {
           <Image src="/HomePage/plot4.svg" className={styles.imageStory} />
         </div>
       </div>
-      <Image
+      {/* <Image
         src="/HomePage/pattern.svg"
         height={100}
         style={{ marginRight: -900, marginBottom: -80, marginTop: 30 }}
@@ -70,7 +70,7 @@ const FourthFold = () => {
       <Image
         src="/HomePage/wireframe-chart.svg"
         className={styles.imageChart}
-      />
+      /> */}
       <span className={styles.header} style={{ marginTop: 40 }}>
         Meet our Team
       </span>

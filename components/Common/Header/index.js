@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <a href="/">
-        <Image src="/HomePage/Logo.svg" className={styles.logo} />
+        <Image src="/HomePage/Logo_home.png" className={styles.logo} />
       </a>
       <div className={styles.rightSection}>
         <a href="/feed" className={styles.profile}>
