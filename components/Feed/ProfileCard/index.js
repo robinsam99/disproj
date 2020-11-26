@@ -22,8 +22,8 @@ const ProfileCard = ({ name, userRole, setUserRoleStatus }) => {
         >
           <Tags type={userRole} />
         </div>
-        <span className={styles.details}>Related To Covid Patient</span>
-        <span className={styles.details}>Duration</span>
+        <span className={styles.details}>Looking for Doctors</span>
+        <span className={styles.details}>Has Common Cold</span>
       </div>
       <a className={styles.link}>Saved Posts</a>
     </div>

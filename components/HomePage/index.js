@@ -53,7 +53,7 @@ const HomePage = () => {
             height="20"
             style={{ marginLeft: 2, marginRight: 5 }}
           />
-          by covimeet.
+          by HomeSymp.
         </span>
       </div>
     </div>

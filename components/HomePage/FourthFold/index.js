@@ -5,24 +5,30 @@ import styles from "./fourth-fold.module.scss";
 
 const profiles = [
   {
-    name: "Dhruv Srikanth",
-    position: "Co-founder and CEO",
-    profile: "/HomePage/dhruv.svg",
+    name: "Robin Sam",
+    position: "CTO",
+    profile: "",
     description:
-      "When he's not building ML models you can find him gaming in a corner.",
+      "Always ready to serve people and loves leading people.",
   },
   {
-    name: "Pranav Jagdish",
-    position: "Co-founder and Product",
-    profile: "/HomePage/pranav.svg",
+    name: "Devesh Guar",
+    position: "CTO",
+    profile: "",
     description:
-      "Aspring business man, great writer and a pain in everyone's bottom.",
+      "Aspring business man, has a great love for the country and army.",
   },
   {
-    name: "Shobith Nandakumar",
-    position: "Co-founder and CTO",
-    profile: "/HomePage/shobith.svg",
-    description: "Loves cloud technology, javascript and animals.",
+    name: "Nimrah Fathima",
+    position: "CFO",
+    profile: "",
+    description: "Loves writing and creating connections around her",
+  },
+  {
+    name: "Vineet Bedre",
+    position: "CFO",
+    profile: "",
+    description: "Very outgoing and deligent person",
   },
 ];
 const FourthFold = () => {
@@ -40,12 +46,11 @@ const FourthFold = () => {
       />
       <div className={styles.storySection}>
         <div style={{ display: "flex", flexDirection: "row" }} className={styles.story}>
-          <Image src="/HomePage/plot1.svg" className={styles.imageStory} />
-          <Image src="/HomePage/plot2.svg" className={styles.imageStory} />
+          <Image src="/HomePage/home_plot1.png" className={styles.imageStory} />
+          <Image src="/HomePage/home_plot2.png" className={styles.imageStory} />
         </div>
         <div style={{ display: "flex", flexDirection: "row" }} className={styles.story}>
-          <Image src="/HomePage/plot3.svg" className={styles.imageStory} />
-          <Image src="/HomePage/plot4.svg" className={styles.imageStory} />
+          <Image src="/HomePage/home_plot3.png" className={styles.imageStory} />
         </div>
       </div>
       {/* <Image

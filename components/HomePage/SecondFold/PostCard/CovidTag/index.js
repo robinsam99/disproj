@@ -5,7 +5,7 @@ const CovidTag = ({ covid }) => {
   return (
     <div className={covid ? styles.containerPositive : styles.container}>
       <span style={{marginLeft: 10}}>
-        {covid ? <span>Covid Positive</span> : <span>Affected By Covid</span>}
+        {covid ? <span>Got Symptoms</span> : <span>Got Diagnosed</span>}
       </span>
     </div>
   );

@@ -5,13 +5,13 @@ const Tags = ({ type, size }) => {
   if (type === "affected") {
     return (
       <div className={size === "sm" ? styles.affectedSmall : styles.affected}>
-        Affected By Covid
+       Got Diagnosed
       </div>
     );
   } else if (type === "positive") {
     return (
       <div className={size === "sm" ? styles.positiveSmall : styles.positive}>
-        Covid Positive
+      Got Symptoms
       </div>
     );
   } else if (type === "doctor") {
