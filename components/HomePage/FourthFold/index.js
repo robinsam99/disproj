@@ -7,27 +7,27 @@ const profiles = [
   {
     name: "Robin Sam",
     position: "CTO",
-    profile: "",
+    profile: "/HomePage/robin.png",
     description:
       "Always ready to serve people and loves leading people.",
   },
   {
     name: "Devesh Guar",
     position: "CTO",
-    profile: "",
+    profile: "/HomePage/devesh.png",
     description:
       "Aspring business man, has a great love for the country and army.",
   },
   {
     name: "Nimrah Fathima",
     position: "CFO",
-    profile: "",
+    profile: "/HomePage/nimrah.png",
     description: "Loves writing and creating connections around her",
   },
   {
     name: "Vineet Bedre",
     position: "CFO",
-    profile: "",
+    profile: "/HomePage/vineet.png",
     description: "Very outgoing and deligent person",
   },
 ];
